@@ -252,42 +252,9 @@ body {
 </head>
 
 <body>
-  <div class="container">
-    <div class="calculator">
-      <div class="calculator__smallDisplay">&nbsp;
-        <div class="calculator__smallOperatorDisplay"></div>
-      </div>
-      <div class="calculator__display">0</div>
-      <div class="calculator__keys">
-        <button class="plus" data-type="operator">+</button>
-        <button class="minus" data-type="operator">-</button>
-        <button class="times" data-type="operator">&times;</button>
-        <button class="divide" data-type="operator">÷</button>
-        <button class="modulus" data-type="expression">%</button>
-        <button class="sqrt" data-type="expression">√</button>
-        <button class="square" data-type="expression">𝑥²</button>
-        <button class="pm" data-type="expression">±</button>
-        <button class="one" data-type="number">1</button>
-        <button class="two" data-type="number">2</button>
-        <button class="three" data-type="number">3</button>
-        <button class="four" data-type="number">4</button>
-        <button class="five" data-type="number">5</button>
-        <button class="six" data-type="number">6</button>
-        <button class="seven" data-type="number">7</button>
-        <button class="eight" data-type="number">8</button>
-        <button class="nine" data-type="number">9</button>
-        <button class="zero" data-type="number">0</button>
-        <button class="decimal" data-type="number">.</button>
-        <button class="clear" data-type="clear">C</button>
-        <button class="clearAll" data-type="clearAll">CE</button>
-        <button class="back" data-type="back">⌫</button>
-        <button class="equal" data-type="equal"> = </button>
-      </div>
-    </div>
-  </div>
-
-</body>
-<script>
+  
+  <script type="text/javascript">
+  
 const calculator = document.querySelector(".calculator");
 const keys = calculator.querySelector(".calculator__keys");
 const display = calculator.querySelector(".calculator__display");
@@ -529,4 +496,44 @@ function truncateValue(value) {
 /* event.target returns the target of the click. In this case <button class = "number x">x</button> */
 
 <script>
+  
+  
+  
+  <div class="container">
+    <div class="calculator">
+      <div class="calculator__smallDisplay">&nbsp;
+        <div class="calculator__smallOperatorDisplay"></div>
+      </div>
+      <div class="calculator__display">0</div>
+      <div class="calculator__keys">
+        <button class="plus" data-type="operator">+</button>
+        <button class="minus" data-type="operator">-</button>
+        <button class="times" data-type="operator">&times;</button>
+        <button class="divide" data-type="operator">÷</button>
+        <button class="modulus" data-type="expression">%</button>
+        <button class="sqrt" data-type="expression">√</button>
+        <button class="square" data-type="expression">𝑥²</button>
+        <button class="pm" data-type="expression">±</button>
+        <button class="one" data-type="number">1</button>
+        <button class="two" data-type="number">2</button>
+        <button class="three" data-type="number">3</button>
+        <button class="four" data-type="number">4</button>
+        <button class="five" data-type="number">5</button>
+        <button class="six" data-type="number">6</button>
+        <button class="seven" data-type="number">7</button>
+        <button class="eight" data-type="number">8</button>
+        <button class="nine" data-type="number">9</button>
+        <button class="zero" data-type="number">0</button>
+        <button class="decimal" data-type="number">.</button>
+        <button class="clear" data-type="clear">C</button>
+        <button class="clearAll" data-type="clearAll">CE</button>
+        <button class="back" data-type="back">⌫</button>
+        <button class="equal" data-type="equal"> = </button>
+      </div>
+    </div>
+  </div>
+
+</body>
+  
+
 </html>
